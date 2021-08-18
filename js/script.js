@@ -10,3 +10,19 @@ function fizzBuzz(begin, end) {
     }
 }
 fizzBuzz(11, 20);
+
+// Task 2
+const someVal = null; 
+console.log(someVal.foo);  //TypeError
+
+
+const a = 1;
+console.log(b)  //SyntaxError
+
+
+function numbers () {
+    const num1 = 2;
+    const num2 = 3;
+    return num1 + num2;
+  }
+  console.log(num1);  //ReferenceError
