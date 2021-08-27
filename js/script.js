@@ -1,28 +1,33 @@
-function fizzBuzz(begin, end) {
-    for (let i = begin; i <= end; i++) {
-        if (i % 3 === 0 && i % 5 === 0)
-        console.log("FizzBuzz");
-        else if (i % 5 === 0)
-        console.log("Buzz");
-        else if (i % 3 === 0)
-        console.log("Fizz");
-        else console.log(i)
-    }
+start=1; finish=100;
+
+num=start-(start%2)+1;
+while(num<=finish) {
+  console.log(num);
+  num+=2;
 }
-fizzBuzz(11, 20);
-
-// Task 2
-const someVal = null; 
-console.log(someVal.foo);  //TypeError
 
 
-const a = 1;
-console.log(b)  //SyntaxError
+
+const num1 = a;
+const num2 = b;
+const num3 = c;
+if(num1>num2 && num1>num3)
+console.log(num1);
+else if(num2>num1 && num2>num3) 
+console.log(num2);
+else if(num3>num1 && num3>num2)
+console.log(num3);
+else if(num1<num2 && num1<num3)
+console.log(num1);
+else if(num2<num1 && num2<num3)
+console.log(num2);
+else if(num3<num1 && num3<num2)
+console.log(num3);
 
 
-function numbers () {
-    const num1 = 2;
-    const num2 = 3;
-    return num1 + num2;
-  }
-  console.log(num1);  //ReferenceError
+
+const rev = (str) => {
+    return str.split('')
+  };
+  
+  console.log(rev('hello, world!'));
