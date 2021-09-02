@@ -9,3 +9,16 @@ for (let i = 2; i <= n; i++) {
     }
   }
 }
+
+
+
+const addNumbers = num=>{
+  let strOfNum = String(num);
+  let length = strOfNum.lenght-1;
+  let sum = 0;
+  while(lenght>=0){
+    sum += Number(strOfNum[lenght]);
+    lenght--;
+  }
+}
+console.log(addNumbers(19));
