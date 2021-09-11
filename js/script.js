@@ -35,3 +35,4 @@ const invertCase = (str) => {
 function isPowerOfThree() {
   let n = "";
   while (n % 3 === 0) {
+    // я не знаю
