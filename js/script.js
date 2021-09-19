@@ -30,3 +30,18 @@ console.log(task2(cities, 1))
 
 // Задача 3 Реализуйте функцию getMax(), которая ищет в массиве максимальное значение и возвращает его.  Для пустого массива возвращается null.
 
+const getMax = (coll) => {
+  if (coll.length === 0) {
+      return null;
+  }
+  let [max, ...rest] = coll;
+  for(let i = 0; i < rest.length; i++) {
+      const currentElement = rest[i];
+      if(currentElement > max) {
+         max = currentElement;
+      }
+  }
+  return max;
+};
+console.log(getMax([]));
+console.log(getMax([1, 10, 8]));
