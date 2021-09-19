@@ -12,8 +12,6 @@ const getTotalAmount = (money, currency) => {
   return summ;
 }
 console.log(getTotalAmount(money, 'usd'))
-console.log(getTotalAmount(money, 'rub'))
-console.log(getTotalAmount(money, 'eur'))
 
 
 // Задача 2 функцию, которая принимает на вход в виде массива кошелек с деньгами и название валюты и возвращает сумму денег указанной валюты.
