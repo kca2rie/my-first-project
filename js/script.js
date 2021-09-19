@@ -16,7 +16,7 @@ console.log(getTotalAmount(money, 'rub'))
 console.log(getTotalAmount(money, 'eur'))
 
 
-// Задача 2
+// Задача 2 функцию, которая принимает на вход в виде массива кошелек с деньгами и название валюты и возвращает сумму денег указанной валюты.
 
 const task2 = (cities, index) => {
   if(index < cities.length) {
