@@ -27,3 +27,6 @@ const task2 = (cities, index) => {
 } 
 const cities = ['moscow', 'london', 'berlin', 'porto'];
 console.log(task2(cities, 1))
+
+// Задача 3
+
